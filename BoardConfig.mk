@@ -90,7 +90,6 @@ TW_USE_TOOLBOX := true
 # System as root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
-# Avb
 
 # fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
@@ -115,6 +114,3 @@ BOARD_MAIN_SIZE := 10200547328my_preload
 BOARD_MAIN_PARTITION_LIST := system vendor product my_engineering my_heytap my_manifest my_product my_stock my_region system_ext odm my_preload my_carrier my_company
 
 
-# Partitions 
-BOARD_FLASH_BLOCK_SIZE := 131072
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 100663296
